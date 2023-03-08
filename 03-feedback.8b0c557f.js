@@ -1,0 +1,2 @@
+!function(){var e=document.querySelector(".feedback-form"),t=document.querySelector('input[type="email"]'),a=document.querySelector('textarea[name="message"]'),r=(document.querySelector('button[type="submit"]'),{email:t.value,textSpace:a.value});e.addEventListener("input",(function(e){var t=localStorage.getItem("feedback-form-state");JSON.parse(t);localStorage.setItem("feedback-form-state",JSON.stringify(r))}))}();
+//# sourceMappingURL=03-feedback.8b0c557f.js.map
